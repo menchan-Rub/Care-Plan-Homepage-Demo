@@ -1,7 +1,10 @@
 "use client"
-
-import nextConfig from "../v0-user-next.config"
+import React from 'react'
 
 export default function SyntheticV0PageForDeployment() {
-  return <div />
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      <h1>Hello World</h1>
+    </div>
+  )
 }
